@@ -24,26 +24,62 @@ a:active {
 
 footer {
     background-color: #3F72AF;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
+
 }
 
 header {
     background-color: #90adec;
+
+}
+
+header p {
+    text-align: center;
+    font-size: 50px;
 }
 
 body {
     background-color: #DBE2EF;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 h1 {
-    background-color: green;
+    color: #112d4e;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-div{
-    background-color: yellow;
+h2 {
+    color: #112d4e;
+    margin: 0;
+    padding: 10px;
+}
+
+
+div {
+
+    margin: 0;
+    padding: 10px;
+
+}
+
+div div {
+
     margin: 0;
     padding: 0;
+    border: 1px solid black;
+}
+
+p {
+
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 20px;
+
 }
