@@ -37,9 +37,13 @@ header {
 
 }
 
-header p {
+header div {
     text-align: center;
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 body {
