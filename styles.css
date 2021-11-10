@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #3F72AF;
+}
+
+
+a:visited {
+    color: rgb(116, 124, 116);
+}
+
+a:hover,
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3F72AF;
+}
+
+header {
+    background-color: #90adec;
+}
+
+body {
+    background-color: #DBE2EF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
