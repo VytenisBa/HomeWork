@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
-html{
+
+html {
+
     height: 100%;
-    width: 100%;
+    
 }
 
 a {
@@ -38,10 +40,12 @@ header div {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 body {
+    min-height: 100vh;
+    position: relative;
     background-color: #DBE2EF;
     margin: 0;
     padding: 0px;
@@ -52,13 +56,6 @@ body {
 
 }
 
-#body {
-    height: 100%;
-    width: 100%;
-}
-
-
-
 footer {
     background-color: #3F72AF;
     width: 100%;
@@ -68,6 +65,7 @@ footer {
 
     margin-top: auto;
 }
+
 h1 {
     color: #112d4e;
     margin: 0;
