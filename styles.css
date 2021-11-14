@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     /*footer down*/
     height: 100%;
@@ -9,10 +10,10 @@ html {
 }
 
 body {
-    background-image: url(images/black-g3e54f5c4d_1920.jpeg);
+    /*background-image: url(images/black-g3e54f5c4d_1920.jpeg);*/
     
 
-    color: blanchedalmond;
+    color: rgb(0, 0, 0);
     min-height: 100vh;
     position: relative;
     background-color: #DBE2EF;
@@ -47,6 +48,7 @@ a:active {
 
 
 header {
+    background-image: url(images/black-g3e54f5c4d_1920.jpeg);
     background-color: #cfd8eb;
     color: black;
 
@@ -85,7 +87,6 @@ h1 {
     color: #95b9e2;
     margin: 0;
     padding: 10px;
-    border: 1px solid black;
 }
 
 h2 {
@@ -93,7 +94,10 @@ h2 {
     margin: 0;
     padding: 10px;
 }
-
+.split {
+    display: flex;
+    flex-direction: column;
+}
 .split img {
     width: 450px;
     height: auto;
@@ -112,7 +116,7 @@ div div {
 
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+   
 }
 
 p {
