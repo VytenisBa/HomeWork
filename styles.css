@@ -35,7 +35,7 @@ a:link {
 
 
 a:visited {
-    color: blanchedalmond;
+    color: rgb(245, 208, 143);
 }
 
 a:hover,
@@ -47,7 +47,8 @@ a:active {
 
 
 header {
-    background-color: #90adec;
+    background-color: #cfd8eb;
+    color: black;
 
 }
 
@@ -64,27 +65,21 @@ footer {
     background-image: url(images/board-g4f08ccdd1_1920.jpeg);
     background-color: #3F72AF;
     background-size: cover;
+    color:#95b9e2 ;
     background-repeat:no-repeat;
     background-position: center;
     max-width: 100%;
     max-height: 100%;
+    
     
     width: 100%;
     height: auto;
     margin: 0px;
     padding: 40px;
 
-    /*    
-    width: 450px;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    */
     /*footer down*/
     margin-top: auto;
 }
-
-
 
 h1 {
     color: #95b9e2;
@@ -99,6 +94,12 @@ h2 {
     padding: 10px;
 }
 
+.split img {
+    width: 450px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
 
 div {
 
