@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url(images/board-gdb804dbf2_1920.jpeg);
+    background-image: url(images/black-g3e54f5c4d_1920.jpeg);
     
 
     color: blanchedalmond;
@@ -61,7 +61,7 @@ header div {
 }
 
 footer {
-    background-image: url(images/stairs-g40a49f8f5_640.jpeg);
+    background-image: url(images/board-g4f08ccdd1_1920.jpeg);
     background-color: #3F72AF;
     background-size: cover;
     background-repeat:no-repeat;
@@ -70,9 +70,16 @@ footer {
     max-height: 100%;
     
     width: 100%;
+    height: auto;
     margin: 0px;
-    padding: 20px;
+    padding: 40px;
 
+    /*    
+    width: 450px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    */
     /*footer down*/
     margin-top: auto;
 }
