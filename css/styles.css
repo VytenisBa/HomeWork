@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 a {
     text-decoration: none;
 }
@@ -37,7 +38,9 @@ a:active {
     color: red;
     text-decoration: underline;
 }
-
+@media (min-with: 40em) {
+    
+}
 header {
     background-image: url(images/board-g4f08ccdd1_1920.jpeg);
     background-color: #cfd8eb;
